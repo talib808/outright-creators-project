@@ -1,0 +1,213 @@
+/* body,
+html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  
+}
+
+.product-pagee {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.background-gif {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-image: url("./watergif.gif");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-image-containerr {
+  position: relative;
+  z-index: 1;
+  width: 80%;
+  height: 50%;
+  align-items: center;
+  margin-left: 60%;
+  
+}
+
+.product-imagee {
+  max-width: 80%;
+  height: 100%;
+  border-radius: 10px;
+  align-items: center;
+}
+
+.text-containe {
+  position: absolute;
+
+  width: 80%;
+  margin-left: 40%;
+  
+
+  z-index: 1;
+}
+
+
+
+
+
+.textt {
+width: 80%;
+  position: absolute;
+  font-size: 10vw;
+  font-weight: 200; 
+  color: #020101;
+  font-family: 'Roboto', sans-serif;
+} */
+
+/* body,
+html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.product-pagee {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.background-gif {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-image: url("./watergif.gif");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-image-containerr {
+  position: relative;
+  z-index: 1;
+  width: 80%;
+  height: 50%;
+  align-items: center;
+  margin-left: 60%;
+  transition: transform 3s ease-in-out;
+}
+
+.product-image-containerr.scrolled {
+  transform: translateY(0);
+}
+
+.product-image-containerr {
+  transform: translateY(-700px);
+}
+
+.product-imagee {
+  max-width: 80%;
+  height: 100%;
+  border-radius: 10px;
+  align-items: center;
+}
+
+.text-containe {
+  position: absolute;
+  width: 80%;
+  margin-left: 40%;
+  z-index: 1;
+}
+
+.textt {
+  width: 80%;
+  position: absolute;
+  font-size: 10vw;
+  font-weight: 200;
+  color: #020101;
+  font-family: 'Roboto', sans-serif;
+} */
+
+
+body,
+html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.product-pagee {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.background-gif {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-image: url("./watergif.gif");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-image-containerr {
+  position: relative;
+  z-index: 1;
+  width: 80%;
+  height: 50%;
+  align-items: center;
+  margin-left: 60%;
+  transition: transform 4s ease-in-out;
+}
+
+.product-image-containerr.scrolled {
+  transform: translateY(0) rotate(15deg);
+}
+
+.product-image-containerr {
+  transform: translateY(-650px);
+}
+
+.product-imagee {
+  max-width: 80%;
+  height: 100%;
+  border-radius: 10px;
+  align-items: center;
+}
+
+.text-containe {
+  position: absolute;
+  width: 80%;
+  margin-left: 40%;
+  z-index: 1;
+}
+
+.textt {
+  width: 80%;
+  position: absolute;
+  font-size: 10vw;
+  font-weight: 200;
+  color: #020101;
+  font-family: 'Roboto', sans-serif;
+}

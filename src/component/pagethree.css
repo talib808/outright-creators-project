@@ -1,0 +1,238 @@
+/* 
+
+body, html, #root {
+  width: 100%;
+  height: 100%;
+}
+
+.product-showcase {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f3eef0;
+  overflow: hidden;
+}
+
+.grid-containerr {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+.text {
+  position: absolute;
+  font-size: 15vw;
+  font-weight: 300; 
+  color: #020101;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+.text-left {
+  font-size: 13vw;
+  top: 10%;
+  left: 22%;
+}
+
+.text-right {
+  font-size: 13vw;
+  bottom: 25%;
+  right: 18%;
+}
+
+.image-containerr {
+  justify-content: center;
+  align-items: center;
+  gap: 20px; 
+}
+
+.product-images {
+  position: absolute;
+  width: 20%;
+  height: auto;
+}
+
+.product-image-1 {
+  top: 35%;
+  left: 52%;
+  transform: translate(-50%, -30%) rotate(15deg);
+}
+
+.product-image-2 {
+  bottom: 30%;
+  right: 50%;
+ transform: translate(50%, 30%) rotate(-15deg);
+} */
+
+
+/* body, html, #root {
+  width: 100%;
+  height: 100%;
+}
+
+.product-showcase {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f3eef0;
+  overflow: hidden;
+}
+
+.grid-containerr {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+.text {
+  position: absolute;
+  font-size: 15vw;
+  font-weight: 300; 
+  color: #020101;
+  font-family: 'Roboto', sans-serif;
+}
+
+.text-left {
+  font-size: 13vw;
+  top: 10%;
+  left: 22%;
+}
+
+.text-right {
+  font-size: 13vw;
+  bottom: 25%;
+  right: 18%;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px; 
+}
+
+.product-images {
+  position: absolute;
+  width: 20%;
+  height: auto;
+  transition: transform 1s ease, top 1s ease;
+}
+
+.product-image-1 {
+  top: -20%;
+  left: 52%;
+  transform: translate(-50%, -30%) rotate(15deg);
+  animation: slideInFromTop 1s forwards;
+}
+
+.product-image-2 {
+  bottom: 30%;
+  right: 50%;
+  transform: translate(50%, 30%) rotate(-15deg);
+}
+
+@keyframes slideInFromTop {
+  to {
+    top: 35%;
+  }
+}
+ */
+
+
+ body, html, #root {
+  width: 100%;
+  height: 100%;
+}
+
+.product-showcase {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f3eef0;
+  overflow: hidden;
+}
+
+.grid-containerr {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+.text {
+  position: absolute;
+  font-size: 15vw;
+  font-weight: 300; 
+  color: #020101;
+  font-family: 'Roboto', sans-serif;
+}
+
+.text-left {
+  font-size: 13vw;
+  top: 10%;
+  left: 22%;
+}
+
+.text-right {
+  font-size: 13vw;
+  bottom: 25%;
+  right: 18%;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px; 
+}
+
+.product-images {
+  position: absolute;
+  width: 20%;
+  height: auto;
+  transition: transform 1s ease, opacity 1s ease;
+}
+
+.product-image-1 {
+  top: 35%;
+  left: 52%;
+  transform: translate(-50%, -800%) rotate(15deg);
+  transition: transform 5s ease, opacity 1s ease;
+}
+
+.product-image-2 {
+  bottom: 30%;
+  right: 50%;
+  transform: translate(50%, 30%) rotate(-15deg);
+}
+
+.show .product-image-1 {
+  transform: translate(-50%, -20%) rotate(10deg);
+}
+
+/* .show .product-image-2 {
+  transform: translate(50%, 0) rotate(0);
+} */

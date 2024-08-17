@@ -1,0 +1,61 @@
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    
+  }
+  
+ 
+  
+  .page {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-rows: 1fr auto 1fr;
+    grid-template-columns: 1fr 1fr;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+  
+  .App-logo {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: cover;
+    transition: all 1s ease;
+  }
+  
+  .title-container {
+    grid-column: 1 / span 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f0f0;
+    padding: 10px;
+    border-radius: 10px;
+    transition: all 1s ease;
+  }
+  
+  .title {
+    font-weight: 300;
+    font-size: 400%;
+    text-align: center;
+    transition: all 1s ease;
+    background-color: #f8f0f0;
+  }
+  
